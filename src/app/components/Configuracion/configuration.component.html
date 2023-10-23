@@ -1,0 +1,34 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let user of users" class="mb-4">
+    <div class="bg-white rounded-lg shadow p-4">
+      <div class="mb-2">
+        <span class="font-bold">Nombre: </span>
+        <span class="text-gray-500">{{ user.name }}</span>
+      </div>
+      <div class="mb-2">
+        <span class="font-bold">Email: </span>
+        <span class="text-gray-500">{{ user.email }}</span>
+      </div>
+      <div class="mb-2">
+        <span class="font-bold">Contraseña: </span>
+        <span class="text-gray-500">{{ user.password }}</span>
+      </div>
+      <div class="mb-2">
+        <span class="font-bold">Fecha: </span>
+        <span class="text-gray-500">{{ user.date }}</span>
+      </div>
+      <div class="mb-2">
+        <span class="font-bold">Teléfono: </span>
+        <span class="text-gray-500">{{ user.phone }}</span>
+      </div>
+      <div class="mb-2">
+        <span class="font-bold">Dirección: </span>
+        <span class="text-gray-500">{{ user.address }}</span>
+      </div>
+      <div class="mb-2">
+        <span class="font-bold">Foto: </span>
+        <span class="text-gray-500">{{ user.photo }}</span>
+      </div>
+    </div>
+  </li>
+</ul>

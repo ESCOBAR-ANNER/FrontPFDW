@@ -1,0 +1,16 @@
+<ul class="list-group">
+  <h1 class="text-gray-500-bold text-center">Public Information</h1>
+  <li class="list-group-item" *ngFor="let user of users" class="mb-4">
+    <div class="bg-white rounded-lg shadow p-4">
+      <div class="mb-2">
+        <span class="font-bold">Nombre: </span>
+        <span class="text-gray-500">{{ user.name }}</span>
+      </div>
+      <div class="mb-2">
+        <span class="font-bold">Fecha: </span>
+        <span class="text-gray-500">{{ user.date }}</span>
+      </div>
+
+      </div>
+  </li>
+</ul>
